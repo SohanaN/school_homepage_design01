@@ -1,2 +1,2 @@
-# School Homepage Design01
+# School Homepage Design
 [Live Site](https://schoolhomepage01.netlify.app/)
