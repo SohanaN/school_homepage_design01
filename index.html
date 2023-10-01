@@ -18,14 +18,13 @@
   <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
 </head>
 
 <body class="sn_body_bg">
   <div class="container sn_container_bg">
     <!-- ///////////////////// Header Start //////////////////////////////-->
     <!--Header top Part Start-->
-    <section class="heading_bg">
+    <section class="sn_background_color">
       <div class="row clearfix">
         <!-- social buttons -->
         <div class="col">
@@ -138,7 +137,7 @@
       </div>
       <!-- top nav End -->
       <!-- logo & name start -->
-      <div class="heading_bg">
+      <div class="sn_background_color">
         <div class="row">
           <div class="col-md-2">
             <img src="./images/Logos/logo.png" alt="logo" style="width: 100px; height: 100px;">
@@ -160,7 +159,7 @@
     <!-- Menu  Start-->
     <section>
       <!-- Bottom nav start -->
-      <nav class="navbar navbar-expand-lg heading_bg">
+      <nav class="navbar navbar-expand-lg sn_background_color">
         <!-- Container wrapper -->
         <div class="container-fluid">
           <!-- Toggle button -->
@@ -528,12 +527,13 @@
       <!-- Bottom nav End -->
       <!-- /* marquee */ -->
       <div class="sn_marquee m-2">
-        <span class="heading_bg">সর্বশেষ নোটিশ:</span>
+        <span class="sn_background_color">সর্বশেষ নোটিশ:</span>
         <span class="scrolling-text">This is a scrolling text using CSS animations.</span>
       </div>
     </section>
     <!-- Menu  End-->
-    <!-- Content Start -->
+    <!-- ///////////////////// Header End //////////////////////////////-->
+    <!-- ///////////////////// Main Content Start //////////////////////////////-->
     <section class="main_content">
       <div class="row">
         <!-- //////////////////////////////////////////////////////////////// -->
@@ -615,7 +615,7 @@
           <!-- Quick Menu Start -->
           <section class="mb-2">
             <div>
-              <p class="heading_bg">Quick Menu</p>
+              <p class="sn_background_color">Quick Menu</p>
             </div>
             <div class="row">
               <div class="col-md-6 border border-start-0 border-top-0">
@@ -713,7 +713,7 @@
           <section class="mt-3">
             <div class="row">
               <div>
-                <p class="heading_bg">গুরুত্বপূর্ণ লিংক ও সেবা সমূহ</p>
+                <p class="sn_background_color">গুরুত্বপূর্ণ লিংক ও সেবা সমূহ</p>
               </div>
               <div class="border border-start-0 border-top-0">
                 <div class="row row-cols-1 row-cols-md-2 g-2 m-2">
@@ -846,7 +846,7 @@
           <section class="mt-3">
             <div class="row">
               <div>
-                <p class="heading_bg">ভিডিও গ্যালারী</p>
+                <p class="sn_background_color">ভিডিও গ্যালারী</p>
               </div>
               <div class="border border-start-0 border-top-0">
                 <div class="row row-cols-1 row-cols-md-3 g-2 m-2">
@@ -880,7 +880,7 @@
           <section class="mt-3">
             <div class="row">
               <div>
-                <p class="heading_bg">সহ পাঠক্রমিক কার্যক্রম</p>
+                <p class="sn_background_color">সহ পাঠক্রমিক কার্যক্রম</p>
               </div>
               <div class="border border-start-0 border-top-0">
                 <div class="row row-cols-1 row-cols-md-5 g-2 m-2">
@@ -933,7 +933,7 @@
           <section class="mt-3">
             <div class="row">
               <div>
-                <p class="heading_bg">প্রতিষ্ঠানের অবস্থান</p>
+                <p class="sn_background_color">প্রতিষ্ঠানের অবস্থান</p>
               </div>
               <div class="map img-fluid">
                 <!--Google map-->
@@ -954,9 +954,9 @@
         <div class="col-md-3">
           <section class="side_content">
             <!-- Messeages  -->
-            <div class="row">
+            <section class="row">
               <div class="mb-3 p-2">
-                <h2 class="heading_bg">সভাপতির বাণী</h2>
+                <h2 class="sn_background_color">সভাপতির বাণী</h2>
                 <div class="principlespech">
                   <img class='img-thumbnail' width="103" height="131" src="./images/side_image/principle.png">
                 </div>
@@ -974,7 +974,7 @@
               </div>
               <hr>
               <div class="mb-3 p-2">
-                <h2 class="heading_bg">প্রধান শিক্ষকের বাণী</h2>
+                <h2 class="sn_background_color">প্রধান শিক্ষকের বাণী</h2>
                 <img class='img-thumbnail mx-auto d-block' width="103" height="131"
                   src="./images/side_image/principle.png">
                 <p class='text-justify sn_fs'>
@@ -990,7 +990,7 @@
               </div>
               <hr>
               <div class="mb-3 p-2">
-                <h2 class="heading_bg">প্রতিষ্ঠান ইতিহাস</h2>
+                <h2 class="sn_background_color">প্রতিষ্ঠান ইতিহাস</h2>
                 <img class='img-thumbnail mx-auto d-block' width="103" height="131"
                   src="./images/side_image/principle.png">
                 <p class='text-justify sn_fs'>
@@ -1004,140 +1004,739 @@
                   রংপুর উচ্চ বিদ্যালয়, রংপুর।
                 </p>
               </div>
-            </div>
+            </section>
+            <hr>
+            <!-- Sidebar Links  -->
+            <section>
+              <!-- ////////////// SideBar Start //////////////////////////-->
+              <!-- Side panel notice Start  -->
+              <section>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                  <div class="accordion-item">
+                    <h2 class="sn_panelhead sn_panelbg1">
+                      <button class="sn_panel_title text-white" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        সংবাদ ত্ত অনুষ্ঠানাদি
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                      <div class="sn_nfeed">
+                        <div>
+                          <ul>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ১ জানুয়ারী
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ৬ মে
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ০৮ জুলাই
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ৩ অক্টোবর
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="text-end">
+                          <a class="text-decoration-none" href="#"><i class="fa fa-arrow-circle-right"
+                              aria-hidden="true"></i> সবগুলো জানতে</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="sn_panelhead sn_panelbg2">
+                      <button class="sn_panel_title text-white collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        নোটিশ বোর্ড
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                      <div class="sn_nfeed">
+                        <div>
+                          <ul>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ১ জানুয়ারী
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ৬ মে
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ০৮ জুলাই
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ৩ অক্টোবর
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="text-end">
+                          <a class="text-decoration-none" href="#"><i class="fa fa-arrow-circle-right"
+                              aria-hidden="true"></i> সবগুলো জানতে</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="sn_panelhead sn_panelbg3">
+                      <button class="sn_panel_title text-white collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        ক্লাস রুটিন
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                      <div class="sn_nfeed">
+                        <div>
+                          <ul>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ১ জানুয়ারী
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ৬ মে
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ০৮ জুলাই
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ৩ অক্টোবর
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="text-end">
+                          <a class="text-decoration-none" href="#"><i class="fa fa-arrow-circle-right"
+                              aria-hidden="true"></i> সবগুলো জানতে</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="sn_panelhead sn_panelbg4">
+                      <button class="sn_panel_title text-white collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        সিলেবাস
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                      <div class="sn_nfeed">
+                        <div>
+                          <ul>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ১ জানুয়ারী
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ৬ মে
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ০৮ জুলাই
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ৩ অক্টোবর
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="text-end">
+                          <a class="text-decoration-none" href="#"><i class="fa fa-arrow-circle-right"
+                              aria-hidden="true"></i> সবগুলো জানতে</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="sn_panelhead sn_panelbg5">
+                      <button class="sn_panel_title text-white collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        পরীক্ষার রুটিন
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                      <div class="sn_nfeed">
+                        <div>
+                          <ul>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ১ জানুয়ারী
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ৬ মে
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ০৮ জুলাই
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ৩ অক্টোবর
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="text-end">
+                          <a class="text-decoration-none" href="#"><i class="fa fa-arrow-circle-right"
+                              aria-hidden="true"></i> সবগুলো জানতে</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="sn_panelhead sn_panelbg6">
+                      <button class="sn_panel_title text-white collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        রেজাল্ট
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                      <div class="sn_nfeed">
+                        <div>
+                          <ul>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ১ জানুয়ারী
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ৬ মে
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ০৮ জুলাই
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <p class="nfeed">
+                                  <span class="nfd">
+                                    <i class="fa fa-calendar" aria-hidden="true"></i> ৩ অক্টোবর
+                                  </span>
+                                  <span>২০১৮</span>
+                                </p>
+                                <p>
+                                  ২০১৮ শিক্ষাবর্ষে ছাত্রদের ভর্তি/সেশন ফি আদায় সংক্রান্ত বিজ্ঞপ্তি।
+                                </p>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="text-end">
+                          <a class="text-decoration-none" href="#"><i class="fa fa-arrow-circle-right"
+                              aria-hidden="true"></i> সবগুলো জানতে</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- Side panel notice End  -->
+              <div class="clearfix"></div>
+              <!-- Important Links Start -->
+              <section class="mt-2">
+                <h2 class="sn_background_color">গুরুত্বপূর্ণ লিঙ্ক</h2>
+                <div class="link_item implnk p-2">
+                  <ul>
+                    <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> শিক্ষক বাতায়ন</a></li>
+                    <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> ই-বুক</a></li>
+                    <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Education Board
+                        Results</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Class Teachers
+                        Login</a>
+                    </li>
+                  </ul>
+                  <div class="details">
+                    <a href="#"> বিস্তারিত <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
+                  </div>
+                </div>
+              </section>
+              <!-- Important Links End -->
+              <hr>
+              <!-- Important2 Links Start -->
+              <section class="mt-2">
+                <h2 class="sn_background_color">ডাউনলোড লিংক</h2>
+                <div class="dwn_lnk link_item p-2">
+                  <ul>
+                    <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> eSIF</a></li>
+                    <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> eFF</a></li>
+                    <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> eSIF</a></li>
+                    <li><a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> eFF</a></li>
+                  </ul>
+                  <div class="details">
+                    <a href="#"> বিস্তারিত <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
+                  </div>
+                </div>
+              </section>
+              <!-- Important2 Links End -->
+              <!-- //////////////////// SideBar End ///////////////////////-->
+            </section>
             <hr>
             <!-- ads -->
-            <div class="row mt-4">
+            <section class="row mt-4">
               <div class="col-12 col-sm-12">
-                <h5 class="heading_bg">
+                <h5 class="sn_background_color">
                   জরুরি হটলাইন
                 </h5>
                 <p class="text-center">
                   <img alt="" class="w-100" src="./images/side_image/hotline.png">
                 </p>
               </div>
-            </div><!-- ads -->
+            </section><!-- ads -->
           </section>
         </div><!-- Side content -->
       </div>
     </section>
-    <!-- Content End -->
-    <!-- footer start  -->
-    <footer class="mt-3 text-center text-lg-start text-dark">
-      <!-- Section: Social media -->
-      <section class="border-top border-bottom border-success p-3">
+    <!-- ///////////////////// Main Content  End //////////////////////////////-->
+    <!-- ///////////////////// Footer Start //////////////////////////////-->
+    <footer class="mt-3">
+      <section class="footer_top sn_background_color p-5">
         <div class="container text-center">
-          <div class="row justify-content-between">
-            <div class="col-8">
-              <!-- Left -->
-              <div class="me-5">
-                <div class="container text-center">
+          <div class="row">
+            <div class="col-2">
+              <section class="f_logo">
+                <a href="#">
+                  <img width="100" height="100" src="./images/Logos/common.png" alt="">
+                </a>
+              </section>
+            </div>
+            <div class="col-6">
+              <section class="row">
+                <div class="col-6">
+                  <div class="text-start">
+                    <h5>
+                      <a class="text-decoration-none text-white" href="#">যোগাযোগ করুন</a>
+                    </h5>
+                    <p class="">
+                      <strong>
+                        ঠিকানা:
+                      </strong>
+                      হাতীবান্ধা, লালমনিরহাট
+                    </p>
+                    <p class=""><strong>
+                        মোবাইল:
+                      </strong>
+                      <a class="text-decoration-none text-white" href="#">
+                        +88 01715932630
+                      </a><br>
+                    </p>
+                    <p class=""><strong>
+                        ই-মেইল:
+                      </strong>
+                      <a class="text-decoration-none text-white" href="#">
+                        digitalalo@gmail.com
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-6">
                   <div class="row">
                     <div class="col">
-                      <a class="text-decoration-none text-dark" href="#">প্রাইভেসী পলিসি |</a>
+                      <ul class="text-start">
+                        <li class="p-1">
+                          <i class="fa-solid fa-grip-lines-vertical"></i>
+                          <a href="#" class="text-decoration-none text-dark m-2 text-white"> প্রতিষ্ঠান সম্পর্কিত</a>
+                        </li>
+                        <li class="p-1">
+                          <i class="fa-solid fa-grip-lines-vertical"></i>
+                          <a href="#" class="text-decoration-none text-dark m-2 text-white"> শিক্ষক বাতায়ন</a>
+                        </li>
+                        <li class="p-1">
+                          <i class="fa-solid fa-grip-lines-vertical"></i>
+                          <a href="#" class="text-decoration-none text-dark m-2 text-white"> প্রাতিষ্ঠানিক যোগ্যতা</a>
+                        </li>
+                        <li class="p-1">
+                          <i class="fa-solid fa-grip-lines-vertical"></i>
+                          <a href="#" class="text-decoration-none text-dark m-2 text-white"> ক্লাস রুটিন </a>
+                        </li>
+                      </ul>
                     </div>
+                  </div>
+                  <div class="row">
                     <div class="col">
-                      <a class="text-decoration-none text-dark " href="#">রিফান্ড পলিসি |</a>
-                    </div>
-                    <div class="col">
-                      <a class="text-decoration-none text-dark " href="#">টার্মস এবং কনডিশন |</a>
-                    </div>
-                    <div class="col">
-                      <a class="text-decoration-none text-dark " href="#">আমাদের সম্পর্কে</a>
+                      <div class="social-buttons float-end">
+                        <a href="#" class="social-button social-button--facebook" aria-label="Facebook">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-button social-button--linkedin" aria-label="LinkedIn">
+                          <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-button social-button--snapchat" aria-label="Snapchat">
+                          <i class="fab fa-snapchat-ghost"></i>
+                        </a>
+                        <a href="#" class="social-button social-button--github" aria-label="GitHub">
+                          <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-button social-button--codepen" aria-label="CodePen">
+                          <i class="fab fa-codepen"></i>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <!-- Left -->
+              </section>
             </div>
             <div class="col-4">
-              <!-- Right -->
-              <div>
-                <a href="" class=" text-dark me-4">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="" class=" text-dark me-4">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="" class=" text-dark me-4">
-                  <i class="fab fa-google"></i>
-                </a>
-                <a href="" class=" text-dark me-4">
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a href="" class=" text-dark me-4">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="" class=" text-dark me-4">
-                  <i class="fab fa-github"></i>
-                </a>
-              </div>
-              <!-- Right -->
+              <section>
+                <div class="row">
+                  <div class="col-md-6 col-xs-6">
+                    <a href="#">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <img src="./images/Logos/android-logo.png" alt="Android App">
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-6 col-xs-6">
+                    <canvas id="canvas">
+                    </canvas>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="counter">
+                    <span>0</span>
+                    <span>1</span>
+                    <span>1</span>
+                    <span>6</span>
+                    <span>3</span>
+                    <span>1</span>
+                  </div>
+                </div>
+              </section>
             </div>
           </div>
         </div>
       </section>
-      <!-- Section: Social media -->
-
-      <!-- Section: Links  -->
-      <section>
-        <div class="container-fluid text-center text-md-start mt-3">
-          <!-- Grid row -->
+      <section class="footer_bottom text-white p-3">
+        <div class="container text-center">
           <div class="row">
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
-              <!-- Content -->
-              <h6 class="text-uppercase fw-bold">Online Upseba</h6>
-              <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                style="width: 60px; background-color: #7c4dff; height: 2px" />
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto">
-              <!-- Links -->
-              <p>৯নং আদর্শ গোতামারী ইউনিয়ন পরিষদ</p>
-              <p>
-                <a href="#!" class="text-dark text-decoration-none">
-                  <i class="fas fa-home mr-3"></i> gotamari.upsheba.com</a>
+            <div class="col">
+              <p class="copyright"> <span>পরিকল্পনা ও বাস্তবায়নে : </span>
+                <a class="text-white" href="http://digitalalo.com/">digitalalo.com</a>
               </p>
             </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto">
-              <!-- Links -->
-              <p>
-                <a href="#!" class="text-dark text-decoration-none"><i class="fas fa-envelope mr-3"></i>
-                  rafiqulislam102@yahoo.com</a>
-              </p>
-              <p>
-                <a href="#!" class="text-dark text-decoration-none"><i class="fas fa-phone mr-3"></i> 01718788110</a>
+            <div class="col">
+              <p class="copyright"> <b>কারিগরি সহযোগিতায় :</b>
+                <a class="text-white" href="http://aloranbdsoft.com/" target="_blank"><span>Aloran IT
+                    Ltd</span></a>
               </p>
             </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
-              <!-- Links -->
-              <p>কারিগরি সহযোগিতায়:
-                <a href="#">orangebd.com</a>
-              </p>
-            </div>
-            <!-- Grid column -->
           </div>
-          <!-- Grid row -->
         </div>
       </section>
-      <!-- Section: Links  -->
     </footer>
-    <!-- footer end  -->
+    <!-- ///////////////////// Footer End //////////////////////////////-->
   </div> <!-- container wrapper End -->
   <!-- bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
+  <!-- Clock start-->
+  <script>
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    var radius = canvas.height / 2;
+    ctx.translate(radius, radius);
+    radius = radius * 0.90
+    setInterval(drawClock, 1000);
+
+    function drawClock() {
+      drawFace(ctx, radius);
+      drawNumbers(ctx, radius);
+      drawTime(ctx, radius);
+    }
+
+    function drawFace(ctx, radius) {
+      var grad;
+      ctx.beginPath();
+      ctx.arc(0, 0, radius, 0, 2 * Math.PI);
+      ctx.fillStyle = 'white';
+      ctx.fill();
+      grad = ctx.createRadialGradient(0, 0, radius * 0.95, 0, 0, radius * 1.05);
+      grad.addColorStop(0, '#333');
+      grad.addColorStop(0.5, 'white');
+      grad.addColorStop(1, '#333');
+      ctx.strokeStyle = grad;
+      ctx.lineWidth = radius * 0.1;
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(0, 0, radius * 0.1, 0, 2 * Math.PI);
+      ctx.fillStyle = '#333';
+      ctx.fill();
+    }
+
+    function drawNumbers(ctx, radius) {
+      var ang;
+      var num;
+      ctx.font = radius * 0.15 + "px arial";
+      ctx.textBaseline = "middle";
+      ctx.textAlign = "center";
+      for (num = 1; num < 13; num++) {
+        ang = num * Math.PI / 6;
+        ctx.rotate(ang);
+        ctx.translate(0, -radius * 0.85);
+        ctx.rotate(-ang);
+        ctx.fillText(num.toString(), 0, 0);
+        ctx.rotate(ang);
+        ctx.translate(0, radius * 0.85);
+        ctx.rotate(-ang);
+      }
+    }
+
+    function drawTime(ctx, radius) {
+      var now = new Date();
+      var hour = now.getHours();
+      var minute = now.getMinutes();
+      var second = now.getSeconds();
+      //hour
+      hour = hour % 12;
+      hour = (hour * Math.PI / 6) +
+        (minute * Math.PI / (6 * 60)) +
+        (second * Math.PI / (360 * 60));
+      drawHand(ctx, hour, radius * 0.5, radius * 0.07);
+      //minute
+      minute = (minute * Math.PI / 30) + (second * Math.PI / (30 * 60));
+      drawHand(ctx, minute, radius * 0.8, radius * 0.07);
+      // second
+      second = (second * Math.PI / 30);
+      drawHand(ctx, second, radius * 0.9, radius * 0.02);
+    }
+
+    function drawHand(ctx, pos, length, width) {
+      ctx.beginPath();
+      ctx.lineWidth = width;
+      ctx.lineCap = "round";
+      ctx.moveTo(0, 0);
+      ctx.rotate(pos);
+      ctx.lineTo(0, -length);
+      ctx.stroke();
+      ctx.rotate(-pos);
+    }
+  </script>
+  <!-- Clock end-->
 </body>
 
 </html>

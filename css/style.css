@@ -1,3 +1,9 @@
+/*Font Awesome Fonts*/
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../webfonts/fa-solid-900.ttf') format('truetype');
+}
+
 /* Common css */
 
 body {
@@ -13,11 +19,11 @@ body {
     font-size: 14px;
 }
 
-.heading_bg {
+.sn_background_color {
     padding: 8px;
     font-size: 16px;
     color: #fff;
-    background-image: linear-gradient(180deg, #128971, #13c599);
+    background-image: linear-gradient(180deg, #088f6d, #25862585);
     background-repeat: no-repeat;
     text-shadow: 1px 1px 0 #000;
 }
@@ -396,6 +402,173 @@ body {
 .principlespech img {
     margin: 1px 8px;
     border-radius: 50%;
+}
+
+/* <!-- ////////////// SideBar Start ////////////////////////////--> */
+
+/* Important Links css */
+.implnk,
+.dwn_lnk {
+    background: rgba(247, 247, 247, 0.79);
+}
+
+.link_item ul li {
+    border-bottom: 1px solid #d5bbb2;
+    color: #717171;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.link_item ul li a {
+    text-decoration: none;
+    color: #717171;
+    padding-left: 10px;
+}
+
+.link_item ul li :hover {
+    color: #d16704;
+}
+
+.details {
+    text-align: right;
+}
+
+.details a {
+    text-decoration: none;
+    color: #fff;
+    background: #128971;
+    line-height: 30px;
+    padding: 6px;
+    border-radius: 7px;
+}
+
+.details a:hover {
+    background: #03b964;
+    color: #01240c;
+    text-decoration: none;
+}
+
+/* Accordion */
+
+.sn_panelhead {
+    width: 100%;
+    box-shadow: inset 0 0 0 2000px rgba(1, 82, 32, 0.2);
+    border-radius: 15px 25px;
+    padding: 4px;
+    border: none;
+    font-size: 18px;
+}
+
+.sn_panel_title {
+    background: transparent !important;
+    border: none;
+}
+
+.sn_panel_title::before {
+    content: "\f02d";
+    font-family: FontAwesome;
+    padding: 10px !important;
+    vertical-align: middle;
+}
+
+.sn_panel_title:not(.collapsed)::before {
+    content: "\f08d";
+    font-family: FontAwesome;
+    padding: 10px !important;
+    vertical-align: middle;
+}
+
+.sn_panelbg1 {
+    background: linear-gradient(360deg, rgba(184, 247, 240, 0.9) 50%, rgba(39, 240, 173, 0.9) 100%);
+}
+
+.sn_panelbg2 {
+    background: linear-gradient(360deg, rgba(231, 106, 95, 0.8) 50%, rgba(204, 26, 26, 0.81)100%);
+}
+
+.sn_panelbg3 {
+    background: linear-gradient(360deg, rgba(175, 241, 123, 0.9) 50%, rgba(18, 236, 54, 0.9) 100%);
+}
+
+.sn_panelbg4 {
+    background: linear-gradient(360deg, rgba(247, 235, 65, 0.9) 50%, rgba(236, 170, 14, 0.9) 100%);
+}
+
+.sn_panelbg5 {
+    background: linear-gradient(360deg, rgba(10, 4, 214, 0.8) 50%, rgba(114, 110, 255, 0.8) 100%);
+}
+
+.sn_panelbg6 {
+    background: linear-gradient(360deg, rgba(132, 149, 228, 0.639) 0%, rgb(12, 76, 161) 51%, rgba(247, 247, 247, 1) 100%);
+}
+
+.sn_nfeed ul li {
+    width: 94%;
+    padding: 0.3em 3% 0.3em;
+    float: left;
+    font-size: 0.9em;
+    line-height: 1.218em;
+    background: url(../images/line.png) no-repeat center bottom;
+}
+
+.sn_nfeed ul li a {
+    color: #514F4F;
+    width: 100%;
+    text-decoration: none;
+}
+
+.sn_nfeed ul li a:hover p {
+    color: #4447fd;
+}
+
+.sn_nfeed ul li a:hover .nfeed .nfd {
+    background-color: #001608;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#d8f1e5), to(#a3fa70));
+    background-image: -moz-linear-gradient(top, #d8f1e5 0%, #707efa 100%);
+    background-image: -o-linear-gradient(top, #d8f1e5 0%, #a3fa70 100%);
+    background-image: -ms-linear-gradient(top, #d8f1e5 0%, #a3fa70 100%);
+    background-image: linear-gradient(top, #d8f1e5 0%, #a3fa70 100%);
+    background-repeat: no-repeat;
+    color: #4447fd;
+}
+
+.nfeed {
+    width: 80px;
+    float: left;
+    margin: 1px 10px 0 0;
+    background: #E6CACA;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5E5B5B;
+    text-align: center;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.nfd {
+    display: block;
+    padding: 0 0 2px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #0c4da2;
+    -moz-border-radius: 8px 8px 0 0;
+    -webkit-border-radius: 8px 8px 0 0;
+    -o-border-radius: 8px 8px 0 0;
+    border-radius: 8px 8px 0 0;
+}
+
+
+/* Footer  */
+/* clock  */
+canvas {
+    width: 200px;
+}
+
+.footer_bottom {
+    background: #027c4d;
 }
 
 /* .................................................  */
