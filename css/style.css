@@ -263,7 +263,6 @@ body {
 /* marquee */
 .sn_marquee {
     background: #EBEFE6;
-    padding: 8px;
 }
 
 @keyframes scroll {
