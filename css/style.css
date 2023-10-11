@@ -609,4 +609,9 @@ canvas {
         background: url('../images/Link_button/thumbnail.jpg') center center no-repeat;
         color: #000;
     }
+
+    canvas {
+        margin-left: 50px;
+        padding-top: 30px;
+    }
 }
