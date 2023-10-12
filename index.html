@@ -50,7 +50,36 @@
           <div class="float-md-end">
             <a href="#" class="pe-auto text-decoration-none text-white sn_txt_effect">উপজেলা প্রতিষ্ঠান সমূহ </a>
             <span> |</span>
-            <a href="#" class="pe-auto text-decoration-none text-white sn_txt_effect"> লগ ইন</a>
+            <!-- Button trigger modal -->
+            <a href="#" class="pe-auto text-decoration-none text-white sn_txt_effect" data-bs-toggle="modal"
+              data-bs-target="#login"> লগ ইন</a>
+            <!-- Modal -->
+            <div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content text-bg-light">
+                  <div class="modal-header sn_background_color">
+                    <h1 class="modal-title fs-5" id="loginLabel"> লগ ইন</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="user-name" class="col-form-label">ইউজার :</label>
+                        <input type="text" class="form-control" id="user-name">
+                      </div>
+                      <div class="mb-3">
+                        <label for="password" class="col-form-label">পাসওয়ার্ড :</label>
+                        <input type="text" class="form-control" id="password">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -60,7 +89,7 @@
     <section>
       <!-- top nav start -->
       <div class="row">
-        <div class="col-md-12 col-sm-12 col-sm-12">
+        <div class="col-md-12 col-sm-12">
           <div class="sn_info_details">
             <a href="#" class="info_btn text-center info_btn_corner p-2 ps-3">
               <span class="sn_info_num">
