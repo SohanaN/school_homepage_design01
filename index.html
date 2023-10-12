@@ -48,38 +48,89 @@
         </div>
         <div class="col-md-6 col-sm-12 mt-2 text-center">
           <div class="float-md-end">
-            <a href="#" class="pe-auto text-decoration-none text-white sn_txt_effect">উপজেলা প্রতিষ্ঠান সমূহ </a>
-            <span> |</span>
-            <!-- Button trigger modal -->
-            <a href="#" class="pe-auto text-decoration-none text-white sn_txt_effect" data-bs-toggle="modal"
-              data-bs-target="#login"> লগ ইন</a>
-            <!-- Modal -->
-            <div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content text-bg-light">
-                  <div class="modal-header sn_background_color">
-                    <h1 class="modal-title fs-5" id="loginLabel"> লগ ইন</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <form>
-                      <div class="mb-3">
-                        <label for="user-name" class="col-form-label">ইউজার :</label>
-                        <input type="text" class="form-control" id="user-name">
+            <ul class="list-group list-group-horizontal sm-text-center">
+              <li>
+                <a href="#" class="px-2 text-decoration-none text-white sn_txt_effect">উপজেলা প্রতিষ্ঠান সমূহ </a>
+              </li>
+              <li>
+                <span> |</span>
+              </li>
+              <li>
+                <!-- Button trigger modal -->
+                <a href="#" class="px-2 text-decoration-none text-white sn_txt_effect" data-bs-toggle="modal"
+                  data-bs-target="#login"> সাইন আপ </a>
+                <!-- Modal -->
+                <div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content text-bg-light">
+                      <div class="modal-header sn_background_color">
+                        <h1 class="modal-title fs-5" id="loginLabel"> সাইন আপ </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                      <div class="mb-3">
-                        <label for="password" class="col-form-label">পাসওয়ার্ড :</label>
-                        <input type="password" class="form-control" id="password">
+                      <div class="modal-body">
+                        <form>
+                          <div class="mb-3">
+                            <label for="user-name" class="col-form-label">ইউজার :</label>
+                            <input type="text" class="form-control" id="user-name">
+                          </div>
+                          <div class="mb-3">
+                            <label for="email" class="col-form-label">ইমেইল :</label>
+                            <input type="text" class="form-control" id="email">
+                          </div>
+                          <div class="mb-3">
+                            <label for="mobile" class="col-form-label">মোবাইল :</label>
+                            <input type="text" class="form-control" id="mobile">
+                          </div>
+                          <div class="mb-3">
+                            <label for="password" class="col-form-label">পাসওয়ার্ড :</label>
+                            <input type="password" class="form-control" id="password">
+                          </div>
+                        </form>
                       </div>
-                    </form>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Submit</button>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">বন্ধ করুন </button>
+                        <button type="button" class="btn btn-primary">সাবমিট</button>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
+              </li>
+              <li>
+                <span> |</span>
+              </li>
+              <li>
+                <!-- Button trigger modal -->
+                <a href="#" class="px-2 text-decoration-none text-white sn_txt_effect" data-bs-toggle="modal"
+                  data-bs-target="#login"> লগ ইন</a>
+                <!-- Modal -->
+                <div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content text-bg-light">
+                      <div class="modal-header sn_background_color">
+                        <h1 class="modal-title fs-5" id="loginLabel"> লগ ইন</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="mb-3">
+                            <label for="user-name" class="col-form-label">ইউজার :</label>
+                            <input type="text" class="form-control" id="user-name">
+                          </div>
+                          <div class="mb-3">
+                            <label for="password" class="col-form-label">পাসওয়ার্ড :</label>
+                            <input type="password" class="form-control" id="password">
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">বন্ধ করুন</button>
+                        <button type="button" class="btn btn-primary">সাবমিট </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
