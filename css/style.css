@@ -372,6 +372,11 @@ body {
     font-size: 14px;
 }
 
+.sn_card img {
+    width: 100px;
+    padding: 15px;
+}
+
 /* Quick Menu */
 .sn_animate_bg1 {
     animation: gradient1 1s infinite alternate linear;
